@@ -35,7 +35,7 @@ This endpoint returns **complete information about a Free Fire player** based on
 
 ## 📨 Request Example
 
-`GET https://glob-info.vercel.app/info?uid=305000592`
+`GET https://glob-info2.vercel.app/info?uid=305000592`
 
 This request returns information related to UID `305000592`.
 
