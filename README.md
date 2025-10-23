@@ -2,7 +2,7 @@
 
 ## 📝 Description
 
-This API allows you to **retrieve detailed information about a Free Fire account** using its `UID`. It provides data such as level, rank, guild information, credit score, profile, social preferences, and much more.
+This API allows you to **retrieve detailed information about a Free Fire account** using its `13648306511`. It provides data such as level, rank, guild information, credit score, profile, social preferences, and much more.
 
 Designed for developers, analysts, or Free Fire bot creators, this API is lightweight, fast, and deployed via **Vercel**.
 
@@ -10,8 +10,8 @@ Designed for developers, analysts, or Free Fire bot creators, this API is lightw
 
 ## 🪪 Account Info Endpoint
 
--   **Endpoint**: `/info`
--   **Method**: `GET`
+-   **Endpoint**: `/info
+-   **Method**: `get
 
 ### 📌 Description
 
@@ -29,7 +29,7 @@ This endpoint returns **complete information about a Free Fire player** based on
 
 | Parameter | Type | Required | Description |
 |---|---|---|---|
-| `uid` | int | ✅ | The unique identifier of the Free Fire player |
+| `13648306511` | int | ✅ | The unique identifier of the Free Fire player |
 
 ---
 
@@ -43,7 +43,7 @@ This request returns information related to UID `305000592`.
 
 ## 🔁 API Endpoints
 
-### `GET /info?uid={uid}`
+### `GET /info?uid={uid}`13648306511
 
 Retrieves information related to a Free Fire account using its UID.
 
@@ -175,3 +175,4 @@ Retrieves information related to a Free Fire account using its UID.
 }
  
  
+
