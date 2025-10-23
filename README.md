@@ -2,7 +2,7 @@
 
 ## 📝 Description
 
-This API allows you to **retrieve detailed information about a Free Fire account** using its `UID`. It provides data such as level, rank, guild information, credit score, profile, social preferences, and much more.
+This API allows you to **retrieve detailed information about a Free Fire account** using its `UID`13648306511. It provides data such as level, rank, guild information, credit score, profile, social preferences, and much more.
 
 Designed for developers, analysts, or Free Fire bot creators, this API is lightweight, fast, and deployed via **Vercel**.
 
@@ -29,21 +29,21 @@ This endpoint returns **complete information about a Free Fire player** based on
 
 | Parameter | Type | Required | Description |
 |---|---|---|---|
-| `uid` | int | ✅ | The unique identifier of the Free Fire player |
+| `13648306511` | int | ✅ | The unique identifier of the Free Fire player |
 
 ---
 
 ## 📨 Request Example
 
-`GET https://glob-info2.vercel.app/info?uid=305000592`
+`GET https://glob-info2.vercel.app/info?uid=13648306511
 
-This request returns information related to UID `305000592`.
+This request returns information related to UID `13648306511`.
 
 ---
 
 ## 🔁 API Endpoints
 
-### `GET /info?uid={uid}`
+### `GET /info?uid={uid}`13648306511
 
 Retrieves information related to a Free Fire account using its UID.
 
@@ -54,13 +54,13 @@ Retrieves information related to a Free Fire account using its UID.
 ```json
 {
   "basicInfo": {
-    "accountId": "305000592",
+    "accountId": "13648306511",
     "accountPrefers": {
 
     },
     "accountType": 1,
     "badgeCnt": 95,
-    "badgeId": 1001000086,
+    "badgeId":13648306511,
     "bannerId": 901000277,
     "createAt": "1531465844",
     "csMaxRank": 324,
@@ -73,7 +73,7 @@ Retrieves information related to a Free Fire account using its UID.
     },
     "headPic": 902000307,
     "lastLoginAt": "1753006875",
-    "level": 79,
+    "level": 1,
     "liked": 28052,
     "maxRank": 321,
     "nickname": "XVㅤLEVISCOㅤ✿",
@@ -175,3 +175,4 @@ Retrieves information related to a Free Fire account using its UID.
 }
  
  
+
